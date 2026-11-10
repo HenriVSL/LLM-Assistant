@@ -1,0 +1,20 @@
+# Side-loaded model weights (multi-GB, pushed to device via Finder — do not commit)
+BundledModel/
+
+# Xcode
+xcuserdata/
+*.xcuserstate
+.DS_Store
+build/
+DerivedData/
+
+# Added for GitHub publishing
+*.xcscmblueprint
+*.xccheckout
+*.ipa
+*.dSYM
+*.dSYM.zip
+*.xcarchive
+.build/
+.swiftpm/
+.claude/
