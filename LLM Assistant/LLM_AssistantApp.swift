@@ -19,7 +19,7 @@ struct LLM_AssistantApp: App {
         _assistant = State(
             initialValue: ChatViewModel(
                 mlxService: mlx,
-                title: "JARVIS",
+                title: "Assistant",
                 conversationFile: "conversation.json",
                 summaryFile: "summary.json",
                 useMemory: true,

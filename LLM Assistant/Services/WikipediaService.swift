@@ -27,7 +27,7 @@ enum WikipediaError: LocalizedError {
 struct WikipediaService {
     private let session: URLSession
     // Wikimedia asks clients to identify themselves; generic agents get blocked.
-    private let userAgent = "JARVIS-iOS/1.0 (personal on-device assistant)"
+    private let userAgent = "LLM-Assistant-iOS/1.0 (https://github.com/HenriVSL/LLM-Assistant)"
 
     init() {
         let config = URLSessionConfiguration.default
